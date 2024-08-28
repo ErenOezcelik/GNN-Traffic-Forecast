@@ -1,9 +1,10 @@
 # Byte-compiled / optimized / DLL files
+GNN_PEMS/
 __pycache__/
 *.py[cod]
 *$py.class
 
-GNN_PEMS/ 
+
 
 # C extensions
 *.so
