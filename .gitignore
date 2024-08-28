@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-GNN_PEMS/
+GNN-Traffic-Forecast/GNN_PEMS/
 __pycache__/
 *.py[cod]
 *$py.class
