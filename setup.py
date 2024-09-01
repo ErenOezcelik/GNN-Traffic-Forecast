@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "GNN-Traffic-Forecasting"
 AUTHOR_USER_NAME = "ErenOezcelik"
-SRC_REPO = "CNN_PEMS"
+SRC_REPO = "GNN_PEMS"
 AUTHOR_EMAIL = "eren.oezcelik2000@gmail.com"
 
 
@@ -17,7 +17,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="A small python package for GNN app",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
