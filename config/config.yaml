@@ -3,23 +3,5 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://www.kaggle.com/datasets/elmahy/pems-dataset/PEMS04/PEMS04.npz 
-  local_data_file: artifacts/data_ingestion/data.zip
-
-
-"""
-  dataset:
-  path: /data/my_dataset/
-  format: csv
-model:
-  architecture: GNN
-  input_size: 224x224
-training:
-  epochs: 10
-  batch_size: 32
-  learning_rate: 0.001
-environment:
-  use_gpu: true
-  gpu_device: 0
-
-  """
+  source_URL: /Users/eren/Desktop/PEMS/PEMS04/PEMS04.npz
+  local_data_file: artifacts/data_ingestion/PEMS04.npz 
