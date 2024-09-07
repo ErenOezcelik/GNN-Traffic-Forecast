@@ -1,6 +1,7 @@
 from src.GNN_PEMS.constants import *
 from src.GNN_PEMS.utils.common import read_yaml, create_directories
 from src.GNN_PEMS.entity.config_entity import DataIngestionConfig
+from src.GNN_PEMS.entity.config_entity import DataPreprocessingConfig
 
 class ConfigurationManager:
     def __init__(
@@ -29,3 +30,14 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
+    
+    def get_data_preprocessing_config(self) -> DataPreprocessingConfig:
+        config = self.config.data_preprocessing
+
+        create_directories([config.root_dir])
+        
+        data_preprocessing_config = DataPreprocessingConfig(
+            root_dir=config.root_dir, 
+            preprocessed_data_file=config.preprocessed_data_file
+            
+        )
