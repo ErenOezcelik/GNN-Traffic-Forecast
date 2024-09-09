@@ -10,5 +10,7 @@ data_ingestion:
 
 data_preprocessing:
   root_dir: artifacts/data_preprocessing
+  graph_signal_matrix_filename: artifacts/data_ingestion/PEMS04.npz
   preprocessed_data_file: artifacts/data_preprocessing/PEMS04_r1_d0_w0_astcgn.npz
+  
 

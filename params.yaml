@@ -1,1 +1,9 @@
-key: val 
+#preprocessing 
+num_of_vertices : 307
+points_per_hour : 12
+num_for_predict : 12
+num_of_weeks : 0
+num_of_days : 0
+num_of_hours : 1
+
+#modelling 
